@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab:wght@400&display=swap");
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+h1 {
+  color: #1d1d1b;
+}
+h2 {
+  margin-bottom: 2rem !important;
+}
+
+.logo {
+  margin: 15px auto;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  line-height: 2;
+  color: #000;
+}
+
+.acceuil-bg {
+  font-size: 20px;
+}
+
+.acceuil-bg {
+  background-image: url("bg.png");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* table */
+
+table.table tr td {
+  vertical-align: middle;
+}
+table.table tr td p {
+  margin-bottom: 0;
+}
+
+table.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.table th,
+table.table td {
+  text-align: left;
+  padding: 8px;
+}
+
+table.table tr:nth-child(even) {
+  background-color: #e8e7ee;
+}
+
+table.table th {
+  background-color: #6667ab;
+  color: white;
+}
+
+/* button */
+div.noPadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.btn {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #6667ab !important;
+  border: 2px solid #6667ab !important;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+.btn span {
+  position: relative;
+  z-index: 2;
+}
+.btn:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #6667ab !important ;
+  transition: all 0.35s;
+}
+.btn:hover {
+  color: #fff !important;
+}
+.btn:hover:after {
+  width: 100%;
+  z-index: 1;
+}
+
+a {
+  color: #a08cda !important;
+}
+
+a:hover {
+  color: #6667ab !important;
+}
+
+.log-out {
+  margin: 25px auto;
+  float: right;
+}
+
+.img-pic {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.center {
+  text-align: center;
+  vertical-align: middle;
+  height: 100%;
+  padding: 5%;
+}
+
+H1 {
+  font-size: 20px !important;
+}
